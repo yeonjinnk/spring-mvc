@@ -22,7 +22,7 @@ public class JacksonTest {
     @Test
     @DisplayName("JSON To Object : 기본 생성자 & (get OR set) METHOD 필요")
     void test2() throws JsonProcessingException {
-        String json = "{\"name\":\"Robbie\",\"age\":95}"; // JSON 타입의 String
+        String json = "{\"nam\":\"Robbie\",\"age\":95}"; // JSON 타입의 String
 
         ObjectMapper objectMapper = new ObjectMapper();
 
